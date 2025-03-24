@@ -4,7 +4,8 @@ import os
 node_list = [ #Add list of .py files containing nodes here
     "frame_nodes",
     "math_nodes",
-    "warp_nodes"
+    "warp_nodes",
+    "custom_warp_nodes"  # Add your new module here
 ]
 
 NODE_CLASS_MAPPINGS = {}
